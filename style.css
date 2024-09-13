@@ -1,0 +1,67 @@
+.nav-link{
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.nav-link:visited{
+    color: white;
+    border-radius: 10px;
+}
+.nav-link:hover{
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    transition: ease 1s;
+}
+.navbar-collapse{
+    justify-content: end;
+}
+.navbar-brand{
+    color: white;
+}
+.navbar-nav{
+    text-align: center;
+}
+.task-background{
+    background-image:  url(images/task-1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.card-title{
+    text-align: center;
+}
+.card{
+    height:300px;
+    width: auto;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    z-index: 1;
+    transition: ease 1s;
+}
+.odd{
+    background-color: #f5dd71;
+}
+.odd-1{
+    background-color: #b1e8fd;
+}
+.task-background-1{
+    background-image:  url(images/task-2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.benefit-background{
+    background-color: #ffdbac;;
+}
+.dot{
+    height: 10px;
+    width: 10px;
+    background-color: black;
+    border-radius: 50%;
+}
